@@ -1,0 +1,10 @@
+name: LitePerms
+main: gmail.theultimatebudgie.liteperms.LitePerms
+version: 1
+commands:
+    lp:
+        description: The base LitePerms command
+        permission: liteperms.lp
+permissions:
+    liteperms.test:
+        default: false
