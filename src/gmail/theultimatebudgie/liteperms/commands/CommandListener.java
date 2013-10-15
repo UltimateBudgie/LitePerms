@@ -48,7 +48,10 @@ public class CommandListener implements CommandExecutor{
 							"/lp promote (PlayerName) - Promote a player (if possible).\n" +
 							"/lp demote (PlayerName) - Demote a player (if possible).\n" +
 							"/lp setgroup (PlayerName) (GroupName) - Sets the player to the specified group" +
+							"/lp getgroup (PlayerName) - Gets a player's group." +
 							"/lp addperm [Group/Player] (GroupName/PlayerName) (Permission) - Adds the specificed permission to the Group or Player\n" +
+							"/lp setprefix [Player/Group] (PlayerName/GroupName) \"(*OPTIONAL*:Prefix)\" - Sets or removes a player's/group's chat-prefix" +
+							"/lp getprefix [Group/Player] (GroupName/PlayerName) - Gets a group's/player's chat-prefix" +
 						LitePerms.INFO + ChatColor.GRAY + "List completed.";
 							
 		sender.sendMessage(message);
