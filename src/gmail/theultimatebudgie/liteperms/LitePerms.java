@@ -9,7 +9,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class LitePerms extends JavaPlugin{
 	private static String PREFIX = ChatColor.DARK_GRAY + "[" + ChatColor.DARK_AQUA + "lp" + ChatColor.DARK_GRAY + "]";
-	public static String INFO = PREFIX + "[" + ChatColor.AQUA + "Info" + ChatColor.BLACK + "] " + ChatColor.RESET;
+	public static String INFO = PREFIX + "[" + ChatColor.AQUA + "Info" + ChatColor.DARK_GRAY + "] " + ChatColor.RESET;
 	public static String WARNING = PREFIX + "[" + ChatColor.DARK_RED + "Warning" + ChatColor.BLACK + "] " + ChatColor.RESET;
 	public static String SUCCESS = ChatColor.DARK_GREEN + "Success! " + ChatColor.RESET;
 	public static String USAGE = ChatColor.RED + "Wrong Usage! " + ChatColor.RESET;

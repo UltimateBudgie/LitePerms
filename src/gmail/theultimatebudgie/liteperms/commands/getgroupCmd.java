@@ -12,7 +12,7 @@ public class getgroupCmd implements LiteCommand {
 
 	@Override
 	public void invokeCommand(LitePerms plugin, CommandSender sender, String[] args) {
-		if (args.length <= 1 ) {
+		if (args.length <= 0 ) {
 			sender.sendMessage(LitePerms.WARNING + LitePerms.USAGE + "Correct Usage: /lp getgroup (PlayerName)");
 			return;
 		}
