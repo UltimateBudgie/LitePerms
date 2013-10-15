@@ -115,10 +115,9 @@ public class YmlReader {
 			if (Group.getGroupByName(groupName) != null) {
 				return Group.getGroupByName(groupName);
 			}
-		} else {
-			playersYml.set("players." + name.toLowerCase() + ".group", Group.getDefaultGroup().getName());
-			savePlayers();
 		}
+		playersYml.set("players." + name.toLowerCase() + ".group", Group.getDefaultGroup().getName());
+		savePlayers();
 			
 		return Group.getDefaultGroup();
 	}
