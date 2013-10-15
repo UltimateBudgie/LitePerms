@@ -34,7 +34,7 @@ public class Listeners implements Listener{
 		lite.remove(p);
 	}
 	
-	@EventHandler(priority = EventPriority.HIGHEST, ignoreCancelled = true)
+	@EventHandler(priority = EventPriority.LOW, ignoreCancelled = true)
 	public void onChatEvent(AsyncPlayerChatEvent event) {
 		if (LitePlayer.getPlayerByName(event.getPlayer().getName()).getChatPrefix() != null) {
 			event.setFormat(LitePlayer.getPlayerByName(event.getPlayer().getName()).getChatPrefix() + 

@@ -45,6 +45,7 @@ public class LitePlayer {
 	public LitePlayer (String name, PermissionAttachment pa) {
 		this.name = name;
 		this.attachment = pa;
+		extraPermissions = new ArrayList<>();
 	}
 	
 	public void remove(Player p) {

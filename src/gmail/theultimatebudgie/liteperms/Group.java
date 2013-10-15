@@ -61,6 +61,8 @@ public class Group {
 	
 	public Group (String name) {
 		this.name = name;
+		permissions = new ArrayList<>();
+		inherits = new ArrayList<>();
 	}
 	
 	public String getName() {
